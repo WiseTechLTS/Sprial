@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Spiral</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container-fluid">
+            Hello World
+        </div>
+        <div id="control-bar-wrapper">
+            <div id="control-bar">
+              <button id="sound-toggle" class="toggle" type="button" data-toggled="false" onClick="handleSoundToggle()" title="Toggle Pulse">
+                <i class="fa-solid fa-music-slash off"></i>
+                <i class="fa-solid fa-music on"></i>
+              </button>
+            </div>
+          </div>
+          
+          <div id="background-image"></div>
+          
+          <div id="background-filter"></div>
+          
+          </div>
+          
+          <div id="sound-message">
+            <p>Click anywhere to toggle sound</p>
+          </div>
+          
+          <canvas id="paper"></canvas>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
